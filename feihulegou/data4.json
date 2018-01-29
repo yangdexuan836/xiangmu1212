@@ -1,0 +1,47 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "Midea 美的 电热水壶 HJ1505",
+			"src" : "homeAppliances1.jpg",
+			"price" : "￥99"
+			
+		},
+		{
+			"id" : "shop02",
+			"name" : "Midea美的 5L 韩式智能电压",
+			"src" : "homeAppliances2.jpg",
+			"price" : "￥399"
+			
+		},
+		{
+			"id" : "shop03",
+			"name" : "美的(Midea) 多功能智能触控 ",
+			"src" : "homeAppliances3.jpg",
+			"price" : "￥249"
+			
+		},
+		{
+			"id" : "shop04",
+			"name" : "SID 超人 SA855 浮动式三刀",
+			"src" : "homeAppliances4.jpg",
+			"price" : "￥89"
+			
+		},
+		{
+			"id" : "shop05",
+			"name" : "RIWA 雷瓦 直发 卷发 玉米烫 ",
+			"src" : "homeAppliances5.jpg",
+			"price" : "￥59"
+		
+			
+		},
+		{
+			"id" : "shop06",
+			"name" : "Panasonic 松下 EH-GND1B",
+			"src" : "homeAppliances6.jpg",
+			"price" : "￥39"
+			
+			
+		}
+	
+]

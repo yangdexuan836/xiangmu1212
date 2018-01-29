@@ -1,0 +1,47 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "Grace 洁丽雅 无捻特柔毛巾礼",
+			"src" : "living1.jpg",
+			"price" : "￥89"
+			
+		},
+		{
+			"id" : "shop02",
+			"name" : "北极绒 1.5-1.8米床 喜庆婚嫁",
+			"src" : "living2.jpg",
+			"price" : "￥399"
+			
+		},
+		{
+			"id" : "shop03",
+			"name" : "浪莎 羊羔绒冬被 1.5*2.0M 5",
+			"src" : "living3.jpg",
+			"price" : "￥209"
+			
+		},
+		{
+			"id" : "shop04",
+			"name" : "爱帛 韩版亲肤棉印花冬被",
+			"src" : "living4.jpg",
+			"price" : "￥89"
+			
+		},
+		{
+			"id" : "shop05",
+			"name" : "浪莎 云貂绒毛毯 2.0*2.3M 蓝",
+			"src" : "living5.jpg",
+			"price" : "￥59"
+		
+			
+		},
+		{
+			"id" : "shop06",
+			"name" : "摩亚 高支高密 磨毛印花 床垫 ",
+			"src" : "living6.jpg",
+			"price" : "￥39"
+			
+			
+		}
+	
+]

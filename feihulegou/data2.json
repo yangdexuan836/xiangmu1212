@@ -1,0 +1,49 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "华为 HUAWEI P10 全网通手",
+			"src" : "iphone1.jpg",
+			"price" : "￥3150"
+			
+		},
+		{
+			"id" : "shop02",
+			"name" : "华为（Huawei）畅享7 Plus 6",
+			"src" : "iphone2.jpg",
+			"price" : "￥1699"
+			
+		},
+		{
+			"id" : "shop03",
+			"name" : "佳能（Canon）IXUS 285 HS ",
+			"src" : "iphone3.jpg",
+			"price" : "￥1199"
+			
+		},
+		{
+			"id" : "shop04",
+			"name" : "飞毛腿 M105 PLUS 15000毫",
+			"src" : "iphone4.jpg",
+			"price" : "￥99"
+			
+		},
+		{
+			"id" : "shop05",
+			"name" : "Viken 维肯 vsport 无线运动",
+			"src" : "iphone5.jpg",
+			"price" : "￥79"
+		
+			
+		},
+		{
+			"id" : "shop06",
+			"name" : "BIRD/波导 A510 移动联通2G ",
+			"src" : "iphone6.jpg",
+			"price" : "￥99"
+			
+			
+		}
+	
+]
+
+

@@ -1,0 +1,358 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ ul,ol,li,a{list-style:none;}
+ a,u{text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+b,strong{font-weight:100;}
+i,em{font-style:normal;}
+.clearfix::after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+/*top  顶部导航*/
+/*公共样式*/
+body{
+	background:url(../images/bg.jpg) center top repeat-x;
+}
+.top_com{
+	width:950px;
+	margin:0 auto;
+}
+#top{
+	height:29px;
+	background:#f3f3f3;
+	border:1px solid #d6d6d6;
+}
+.top_com{
+	;
+	height:29px;		
+}
+.top_com .top_con1{
+	width:340px;
+	height:29px;
+	float:left;
+	font-size:12px ;
+	line-height:29px;
+	color:#666;
+}
+
+.top_com .top_con1 >a:hover{
+	color:red;
+}
+.top_com .top_con2{
+	width:344px;
+	height:29px;
+	float:right;
+	font-size:12px ;
+	line-height:29px;
+	color:#666;
+}
+.top_com .top_con2 .con1,.con2,.con3,.con4{
+	float: left;
+}
+.top_com .top_con2 .con1>li{
+	width:70px;
+	height:29px;
+	line-height: 29px;
+	position:relative;
+	display: none;
+	
+}
+.top_com .top_con2 .con1>li:first-child{
+	display: block;
+}
+.top_com .top_con2 .con1>li:first-child span{
+	display: block;
+	position:absolute;
+	right:3px;
+	top:7px;
+	width:10px;
+	height:12px;
+	background:url(../images/sitenav.png) left top no-repeat;
+	float: right;
+	padding-right: 2px;
+	background-position:0 2px
+	
+}
+.top_com .top_con2 .con1>li:hover{
+	background:#C7012C;	
+}
+.top_com .top_con2 .con1>li:first-child:hover a{
+
+	color:#fff
+}
+.top_com .top_con2 .con1>li:first-child:hover span {
+	background-position:-14px 2px ;
+}
+.top_com .top_con2 .con1>ul{
+	display: none;
+}
+.top_com .top_con2 .con1>ul>li:hover{
+	border-bottom:1px dashed #dfdfcc;
+}
+.top_com .top_con2 .con1>ul>li:hover a{
+	text-decoration: underline;
+}
+.top_com .top_con2 .con3{
+	margin-left:28px;
+	background-position:0 2px
+}
+
+
+/*表单*/
+#content{
+	width:950px;
+	height:465px;
+	margin:0 auto;
+	background:url(../images/login_bg.jpg) center no-repeat;
+	border-bottom: 1px solid #ebebeb;
+	position: relative;
+}
+#content form{
+	width:548px;
+	
+	height:433px;
+	background:#fff;
+	border:2px solid #eedfbb;
+	position: absolute;
+	right:0;
+	bottom: 0;
+}
+.biaotou{
+	width:538px;
+	height:31px;
+	line-height: 31px;
+	color:#666;
+	padding-left:10px;
+	background:#f8f8f8;
+}
+.content{
+	width:546px;
+	height:400px;
+	border:1px solid #c7012c;
+}
+.content span{
+	color:#f00;
+}
+.reminder{
+	width:546px;
+	height:12px;
+	padding:14px 0 8px 10px;
+	font-size:12px;
+	color:#999;
+}
+.reminder i{
+	font-size:12px;
+	color: #ff005d;
+}
+.uname_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:40px;
+}
+.uname_input #uname{
+	width:180px;
+	height:22px;
+}
+
+.upwd_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:52px;
+	margin-top:8px;
+}
+.upwd_input #upwd{
+	width:180px;
+	height:22px;
+}
+
+.qpwd_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:28px;
+	margin-top:8px;
+}
+.qpwd_input #qpwd{
+	width:180px;
+	height:22px;
+}
+
+.eMail_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:52px;
+	margin-top:8px;
+}
+.eMail_input #eMail{
+	width:180px;
+	height:22px;
+}
+.referrer_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:46px;
+	margin-top:8px;
+}
+.referrer_input #referrer{
+	width:180px;
+	height:22px;
+}
+
+.actionCode_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:34px;
+	margin-top:8px;
+}
+.actionCode_input #actionCode{
+	width:180px;
+	height:22px;
+}
+
+.verificationCode_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:40px;
+	margin-top:8px;
+}
+.verificationCode_input #verificationCode{
+	width:180px;
+	height:22px;
+}
+
+.authCode{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:95px;
+	margin-top: 8px;
+
+}
+.authCode .pay1,.pay2{
+	float: left;
+}
+.authCode .pay1{
+	width:61px;
+	height:18px;
+	line-height: 18px;
+	text-align: center;
+	border:1px solid #333;
+}
+.authCode .pay2{
+	color:#3f70fc;
+	text-decoration: underline;
+	padding-left: 10px;
+	
+}
+.authCode .pay2:hover{
+	color:#c5002c;
+}
+
+
+
+
+
+
+
+
+.deal_input{
+	width:546px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	padding-left:95px;
+	margin-top:8px;
+}
+.deal_input #deal{
+	width:12px;
+	height:12px;
+	color:#666;
+	font-size:12px;
+	margin-right: 3px;
+}
+.deal_input a{
+	margin-left:3px;
+	text-decoration: underline;
+}
+.deal_input a:hover{
+	color:#c5002c;
+}
+#sub{
+	width:140px;
+	height:40px;
+	border:0;
+	margin:12px 0 0 95px;
+	background:url(../images/register.png) left top no-repeat;
+}
+#sub:hover{
+	background-position: 0 -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+	width: 950px;
+	margin:0 auto;
+	position:relative;
+	
+}
+.footer ul{
+	display: block;
+	width:950px;
+	height:22px;
+	
+}
+.footer ul li{
+	float: left;
+	margin-right:20px;
+	line-height:22px;
+	font-size:12px;
+}
+.footer h5{
+	width:950px;
+	height:22px;
+	font-size:12px;
+	line-height: 22px;
+	color:#999;
+}
+.footer h5 a:hover{
+	color:#0066ff
+}
+.footer p{
+	color:#999;
+	font-size:12px;
+	line-height: 22px;
+}
+.footer .zhengshu{
+	width:59px;
+	height:70px;
+	position:absolute;
+	right:-5px;
+	bottom:0px
+}
+.footer .zhengshu a img{
+	width:59px;
+	height: 70px;
+}

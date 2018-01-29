@@ -1,0 +1,268 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ ul,ol,li,a{list-style:none;}
+ a,u{text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+b,strong{font-weight:100;}
+i,em{font-style:normal;}
+.clearfix::after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+/*top  顶部导航*/
+/*公共样式*/
+body{
+	background:url(../images/bg.jpg) center top repeat-x;
+}
+.top_com{
+	width:950px;
+	margin:0 auto;
+}
+#top{
+	height:29px;
+	background:#f3f3f3;
+	border:1px solid #d6d6d6;
+}
+.top_com{
+	;
+	height:29px;		
+}
+.top_com .top_con1{
+	width:340px;
+	height:29px;
+	float:left;
+	font-size:12px ;
+	line-height:29px;
+	color:#666;
+}
+
+.top_com .top_con1 >a:hover{
+	color:red;
+}
+.top_com .top_con2{
+	width:344px;
+	height:29px;
+	float:right;
+	font-size:12px ;
+	line-height:29px;
+	color:#666;
+}
+.top_com .top_con2 .con1,.con2,.con3,.con4{
+	float: left;
+}
+.top_com .top_con2 .con1>li{
+	width:70px;
+	height:29px;
+	line-height: 29px;
+	position:relative;
+	display: none;
+	
+}
+.top_com .top_con2 .con1>li:first-child{
+	display: block;
+}
+.top_com .top_con2 .con1>li:first-child span{
+	display: block;
+	position:absolute;
+	right:3px;
+	top:7px;
+	width:10px;
+	height:12px;
+	background:url(../images/sitenav.png) left top no-repeat;
+	float: right;
+	padding-right: 2px;
+	background-position:0 2px
+	
+}
+.top_com .top_con2 .con1>li:hover{
+	background:#C7012C;	
+}
+.top_com .top_con2 .con1>li:first-child:hover a{
+
+	color:#fff
+}
+.top_com .top_con2 .con1>li:first-child:hover span {
+	background-position:-14px 2px ;
+}
+.top_com .top_con2 .con1>ul{
+	display: none;
+}
+.top_com .top_con2 .con1>ul>li:hover{
+	border-bottom:1px dashed #dfdfcc;
+}
+.top_com .top_con2 .con1>ul>li:hover a{
+	text-decoration: underline;
+}
+.top_com .top_con2 .con3{
+	margin-left:28px;
+	background-position:0 2px
+}
+
+
+/*表单*/
+#content{
+	width:950px;
+	height:465px;
+	margin:0 auto;
+	background:url(../images/login_bg.jpg) center no-repeat;
+	border-bottom: 1px solid #ebebeb;
+	position: relative;
+}
+#content form{
+	width:328px;
+	
+	height:350px;
+	background:#fff;
+	border:2px solid #eedfbb;
+	position: absolute;
+	right:177px;
+	bottom: 64px;
+}
+.biaotou{
+	width:318px;
+	height:31px;
+	line-height: 31px;
+	color:#666;
+	padding-left:10px;
+	background:#f8f8f8;
+}
+.content{
+	width:326px;
+	height:317px;
+	border:1px solid #c7012c;
+}
+
+.reminder{
+	width:305px;
+	height:30px;
+	border:1px solid #ccc;
+	font-size:12px;
+	color:#666;
+	line-height: 30px;
+	text-align: center;
+	margin:10px 0 0 9px;
+	
+}
+
+.uname_input{
+	width:296px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	margin-top:11px;
+	padding-left: 30px;
+	
+}
+.uname_input #uname{
+	width:220px;
+	height:22px;
+}
+
+.upwd_input{
+	width:288px;
+	height:24px;
+	font-size:12px;
+	line-height:24px;
+	margin-top:11px;
+	padding-left: 30px;
+}
+
+.upwd_input #upwd{
+	width:220px;
+	height:22px;
+}
+
+.forgetPassword{
+	width:216px;
+	height:25px;
+	padding:10px 0 0 80px;
+	
+}
+.forgetPassword a{
+	text-decoration: underline;
+	font-size:12px;
+	color:#3f70fc;
+}
+.forgetPassword a:hover{
+	color:#c5002c;
+}
+.ally{
+	width:309px;
+	height:102px;
+	border-top:dashed 1px #ececec;
+	margin-left: 9px;
+}
+.btn_input{
+	width:309px;
+	height:40px;
+	padding-left: 80px;
+	line-height: 40px;
+}
+.btn_input>a{
+	width: 50px;
+	height: 40px;
+	float: right;
+	font-size: 12px;
+	color:#3f70fc;
+	margin-right:100px;
+	text-decoration: underline;
+}
+.btn_input>a:hover{
+	color:#c5002c;
+}
+#btn{
+	width:140px;
+	height:40px;
+	border:0;
+	background:url(../images/sitenav.png) no-repeat;
+	background-position:0 -60px
+}
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+	width: 950px;
+	margin:0 auto;
+	position:relative;
+	
+}
+.footer ul{
+	display: block;
+	width:950px;
+	height:22px;
+	
+}
+.footer ul li{
+	float: left;
+	margin-right:20px;
+	line-height:22px;
+	font-size:12px;
+}
+.footer h5{
+	width:950px;
+	height:22px;
+	font-size:12px;
+	line-height: 22px;
+	color:#999;
+}
+.footer h5 a:hover{
+	color:#0066ff
+}
+.footer p{
+	color:#999;
+	font-size:12px;
+	line-height: 22px;
+}
+.footer .zhengshu{
+	width:59px;
+	height:70px;
+	position:absolute;
+	right:-5px;
+	bottom:0px
+}
+.footer .zhengshu a img{
+	width:59px;
+	height: 70px;
+}

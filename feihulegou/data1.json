@@ -1,0 +1,41 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "赞宝贝 小喇叭摇铃 V317",
+			"src" : "miao1.jpg",
+			"price" : "￥1",
+			"orPrice":"￥3.80"
+		},
+		{
+			"id" : "shop02",
+			"name" : "Viken 维肯 悦步运动蓝牙",
+			"src" : "miao2.jpg",
+			"price" : "￥59",
+			"orPrice":"￥159"
+		},
+		{
+			"id" : "shop03",
+			"name" : "Gol 高乐 竹纤维绣花 毛巾",
+			"src" : "miao3.jpg",
+			"price" : "￥18",
+			"orPrice":"￥49"
+		},
+		{
+			"id" : "shop04",
+			"name" : "FOLATO 车载手机支架 出",
+			"src" : "miao4.jpg",
+			"price" : "￥19",
+			"orPrice":"￥99"
+		},
+		{
+			"id" : "shop05",
+			"name" : "文博 洗脸美容束发带",
+			"src" : "miao5.jpg",
+			"price" : "￥2",
+			"orPrice":"￥18"
+			
+		}
+	
+]
+
+

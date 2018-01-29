@@ -1,0 +1,47 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "相宜本草 黑茶男士控油洁面泥",
+			"src" : "beautyCare1.jpg",
+			"price" : "￥35"
+			
+		},
+		{
+			"id" : "shop02",
+			"name" : "韩后 毛孔清透爽肤水 120ml ",
+			"src" : "beautyCare2.jpg",
+			"price" : "￥48"
+			
+		},
+		{
+			"id" : "shop03",
+			"name" : "伊诗兰顿弹力蛋白精华眼霜改",
+			"src" : "beautyCare3.jpg",
+			"price" : "￥39"
+			
+		},
+		{
+			"id" : "shop04",
+			"name" : "相宜本草 红景天莹透幼白礼盒",
+			"src" : "beautyCare4.jpg",
+			"price" : "￥219"
+			
+		},
+		{
+			"id" : "shop05",
+			"name" : "片仔癀 深炫白牙膏留兰香型 1",
+			"src" : "beautyCare5.jpg",
+			"price" : "￥36"
+		
+			
+		},
+		{
+			"id" : "shop06",
+			"name" : "美迪惠尔 水润保湿面膜（升级",
+			"src" : "beautyCare6.jpg",
+			"price" : "￥95"
+			
+			
+		}
+	
+]

@@ -1,0 +1,47 @@
+[
+		{
+			"id" : "shop01",
+			"name" : "COOREENA 新款修身中长款",
+			"src" : "clothing1.jpg",
+			"price" : "￥199"
+			
+		},
+		{
+			"id" : "shop02",
+			"name" : "寒豹 冬季潮流韩版保暖男式棉",
+			"src" : "clothing2.jpg",
+			"price" : "￥269"
+			
+		},
+		{
+			"id" : "shop03",
+			"name" : "浪莎 男士内衣纯色莫代尔薄款",
+			"src" : "clothing3.jpg",
+			"price" : "￥69"
+			
+		},
+		{
+			"id" : "shop04",
+			"name" : "阿迪达斯男秋新款运动透气长",
+			"src" : "clothing4.jpg",
+			"price" : "￥249"
+			
+		},
+		{
+			"id" : "shop05",
+			"name" : "劳士顿（ROSDN）手表 石英",
+			"src" : "clothing5.jpg",
+			"price" : "￥398"
+		
+			
+		},
+		{
+			"id" : "shop06",
+			"name" : "劳士顿（ROSDN）手表 时尚",
+			"src" : "clothing6.jpg",
+			"price" : "￥398"
+			
+			
+		}
+	
+]
